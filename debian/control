@@ -1,0 +1,25 @@
+Source: kaisen-archive-keyring
+Priority: required
+Section: misc
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
+Uploaders: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
+Build-Depends: debhelper (>= 10), jetring, gnupg
+Standards-Version: 3.9.8
+
+Package: kaisen-archive-keyring
+Architecture: all
+Priority: required
+Depends: gpgv, ${misc:Depends}
+Recommends: gnupg
+Description: Kaisen GPG repositories pubkeys
+ Kaisen Linux distribution public keys
+
+Package: kaisen-archive-keyring-udeb
+Package-Type: udeb
+Priority: required
+Architecture: all
+Section: debian-installer
+Depends: ${misc:Depends}
+Recommends: gpgv-udeb
+Description: Kaisen GPG repositories pubkeys (Debian Installer package)
+ Kaisen Linux distribution public keys

@@ -1,0 +1,5 @@
+kaisen-archive-keyring (2020+kaisen1) kaisen-devel; urgency=medium
+
+  * Adding GPG key for Kaisen Linux repositories
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 28 Apr 2020 12:29:13 +0200
