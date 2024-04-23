@@ -2,13 +2,15 @@
 
 set -e
 
+GREEN='\e[1;32m'
+
 case "$1" in
     configure)
 	# Install the symlink upon first installation
 	mkdir -p /etc/apt/trusted.gpg.d/
 	ln -sf /usr/share/keyrings/kaisen-archive-keyring.gpg \
 	       /etc/apt/trusted.gpg.d/kaisen-archive-keyring.gpg
-	echo "Kaisen Linux repositories is now trusted."
+	echo $GREEN "Kaisen Linux repositories is now trusted.";tput sgr0
     ;;
 esac
 

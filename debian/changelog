@@ -1,3 +1,20 @@
+kaisen-archive-keyring (2024+kaisen1) kaisen-packages; urgency=high
+
+  * Add new GPG key
+  * Delete expired 2022 GPG key
+  * Define the principal key at may 2024
+  * Add the GPG key will be expired in 2026
+  * Add the GPG key will be expired in 2028
+  * Remove the debian/compat file
+  * Remove the Uploaders field
+  * Update the email address of the maintainer field
+  * Bump compat 9 to 13
+  * Update the Makefile
+  * Add a color for the echo in the postinst script
+  * Typo
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 23 Apr 2024 02:35:37 +0200
+
 kaisen-archive-keyring (2020+kaisen1) kaisen-devel; urgency=medium
 
   * Adding GPG key for Kaisen Linux repositories

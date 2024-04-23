@@ -1,10 +1,9 @@
 Source: kaisen-archive-keyring
 Priority: required
 Section: misc
-Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
-Uploaders: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
-Build-Depends: debhelper (>= 10), jetring, gnupg
-Standards-Version: 3.9.8
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
+Build-Depends: debhelper-compat (= 13), jetring, gnupg
+Standards-Version: 4.6.2
 
 Package: kaisen-archive-keyring
 Architecture: all
