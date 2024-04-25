@@ -1,3 +1,9 @@
+kaisen-archive-keyring (2024+kaisen2) kaisen-packages; urgency=high
+
+  * Add a fix if the TERM variable is not defined (in the postinst file).
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 25 Apr 2024 06:53:19 +0200
+
 kaisen-archive-keyring (2024+kaisen1) kaisen-packages; urgency=high
 
   * Add new GPG key

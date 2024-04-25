@@ -3,6 +3,7 @@
 set -e
 
 GREEN='\e[1;32m'
+RESET_COLOR='\033[0m'
 
 case "$1" in
     configure)
@@ -10,7 +11,7 @@ case "$1" in
 	mkdir -p /etc/apt/trusted.gpg.d/
 	ln -sf /usr/share/keyrings/kaisen-archive-keyring.gpg \
 	       /etc/apt/trusted.gpg.d/kaisen-archive-keyring.gpg
-	echo $GREEN "Kaisen Linux repositories is now trusted.";tput sgr0
+	echo $GREEN "Kaisen Linux repositories is now trusted."$RESET_COLOR
     ;;
 esac
 
